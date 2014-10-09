@@ -34,7 +34,7 @@ Gravity Forms 1.8.
  
 == Screenshots ==
 
-1. An horizontal opt-in form, with placeholders insted of labels. 
+1. A horizontal opt-in form, with placeholders insted of labels. 
 2. Automatically show an opt-in form at the end of every blog post.
 3. Settings for this plugin. Find these by clicking "Forms" in the left menu of your admin screen. Scroll over one of your forms, and click "Form Settings." Scroll down to "Form Layout."
 
