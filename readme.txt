@@ -3,7 +3,7 @@ Contributors: ryankienstra
 Donate link: http://jdrf.org/get-involved/ways-to-donate/
 Tags: forms, styling, gravity 
 Requires at least: 3.8
-Tested up to: 4.0 
+Tested up to: 4.1
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,7 @@ Display your Gravity Form at the end of every post. Also choose to show it horiz
 
 == Description ==
 
+* Must have the Gravity Forms plugin. Don't activate this unless you Gravity Forms activated.
 * Makes email opt-in forms horizontal, and small enough to put anywhere.
 * Set an opt-in form to show at the end of every post.
 * Must have the Gravity Forms plugin.
@@ -34,7 +35,7 @@ Gravity Forms 1.8.
  
 == Screenshots ==
 
-1. A horizontal opt-in form, with placeholders insted of labels. 
+1. An horizontal opt-in form, with placeholders insted of labels. 
 2. Automatically show an opt-in form at the end of every blog post.
 3. Settings for this plugin. Find these by clicking "Forms" in the left menu of your admin screen. Scroll over one of your forms, and click "Form Settings." Scroll down to "Form Layout."
 
