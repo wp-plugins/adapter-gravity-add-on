@@ -12,7 +12,7 @@ Display your Gravity Form at the end of every post. Also choose to show it horiz
 
 == Description ==
 
-* Must have the Gravity Forms plugin. Don't activate this unless you Gravity Forms activated.
+* Must have the Gravity Forms plugin. Don't activate this unless Gravity Forms is activated.
 * Makes email opt-in forms horizontal, and small enough to put anywhere.
 * Set an opt-in form to show at the end of every post.
 * Must have the Gravity Forms plugin.
