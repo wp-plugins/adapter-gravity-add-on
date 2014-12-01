@@ -114,7 +114,7 @@ function aga_set_class_of_input_tags( $content, $field, $value, $lead_id, $form_
 }
 
 function aga_add_class_to_input( $content , $new_class ) {
-	$content_with_new_class = preg_replace( "/(<input[^>]*?type=\'(text|email)\'[^>]*?(class=\'))/" , "$1" . esc_attr( $new_class ) . "\s" , $content );
+	$content_with_new_class = preg_replace( "/(<input[^>]*?type=\'(text|email)\'[^>]*?(class=\'))/" , "$1" . esc_attr( $new_class ) . " " , $content );
 	return $content_with_new_class;
 }
 
@@ -133,8 +133,8 @@ function aga_submit_button( $button_input , $form ) {
 
 	$class_attribute = "class='";
 	if ( false !== strpos( $button_input , $class_attribute ) ) {
-		$class_attribute_with_new_classes = $class_attribute . esc_attr( $new_classes ) . "\s";
-		$filtered_button =	str_replace( $class_attribute , $class_attribute_with_new_classes , $button_input );
+		$class_attribute_with_new_classes = $class_attribute . esc_attr( $new_classes ) . " ";
+		$filtered_button = str_replace( $class_attribute , $class_attribute_with_new_classes , $button_input );
 		return $filtered_button;
 	} else {
 		$opening_input = '<input';
